@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dropdown_ajax_test','DynamicDependent@index');
+Route::post('dynamic_dependent/fetch','DynamicDependent@fetch')->name('dynamicdependent.fetch');
+ 
