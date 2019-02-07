@@ -16,4 +16,10 @@ Route::get('/', function () {
 });
 Route::get('/dropdown_ajax_test','DynamicDependent@index');
 Route::post('dynamic_dependent/fetch','DynamicDependent@fetch')->name('dynamicdependent.fetch');
+
+
+Route::get('/prodview','TestController@prodfunct');
+Route::get('/findProductName','TestController@findProductName');
+Route::get('/findPrice','TestController@findPrice');
+
  
