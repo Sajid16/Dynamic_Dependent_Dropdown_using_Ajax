@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductCat extends Model
 {
-    protected $table = 'product_cats';
+    // protected $table = 'product_cats';
 }
