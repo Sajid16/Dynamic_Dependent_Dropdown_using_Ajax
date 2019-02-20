@@ -22,4 +22,9 @@ Route::get('/prodview','TestController@prodfunct');
 Route::get('/findProductName','TestController@findProductName');
 Route::get('/findPrice','TestController@findPrice');
 
+
+Route::get('/upload','uploadController@index');
+Route::post('/store','uploadController@upload');
+
+
  
